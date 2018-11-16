@@ -4,18 +4,18 @@ input_lang=de
 output_lang=en
 
 #==============================================================================
-working=/home/larocca2/zipporah
-ROOT=/home/larocca2/zipporah
+working=/home/student/zipporah
+ROOT=/home/student/zipporah
 
-moses=/home/tools/mosesdecoder
-srilm=/home/tools/kaldi/tools/srilm/bin/i686-m64
+moses=/home/student/mosesdecoder
+srilm=/home/student/srilm/bin/i686-m64
 
 # model variables
 #==============================================================================
 
-clean_stem_good=/export/b03/hxu/data-selection/clean_corpus/de-en/good.de-en.short
-raw_stem_bad=/export/b03/hxu/MT_experiments/data/de-en/bad.short
-clean_stem_dev=/export/b03/hxu/data-selection/clean_corpus/de-en/news.de-en
+raw_stem_good=/home/student/zipporah_data/good/train
+raw_stem_bad=/home/student/zipporah_data/bad/bad
+raw_stem_dev=/home/student/zipporah_data/dev/dev
 
 #==============================================================================
 
