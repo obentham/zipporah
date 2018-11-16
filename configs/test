@@ -4,8 +4,8 @@ input_lang=de
 output_lang=en
 
 #==============================================================================
-working=/home/larocca1/OliverBentham
-ROOT=/home/larocca1/OliverBentham
+working=/home/larocca2/zipporah
+ROOT=/home/larocca2/zipporah
 
 moses=/home/tools/mosesdecoder
 srilm=/home/tools/kaldi/tools/srilm/bin/i686-m64
