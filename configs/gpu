@@ -13,9 +13,9 @@ srilm=/home/tools/kaldi/tools/srilm/bin/i686-m64
 # model variables
 #==============================================================================
 
-raw_stem_good=/home/student/zipporah_data/good/train
-raw_stem_bad=/home/student/zipporah_data/bad/bad
-raw_stem_dev=/home/student/zipporah_data/dev/dev
+raw_stem_good=/home/larocca2/zipporah_data/good/train
+raw_stem_bad=/home/larocca2/zipporah_data/bad/bad
+raw_stem_dev=/home/larocca2/zipporah_data/dev/dev
 
 #==============================================================================
 
