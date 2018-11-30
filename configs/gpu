@@ -7,8 +7,9 @@ output_lang=en
 working=/home/larocca2/zipporah
 ROOT=/home/larocca2/zipporah
 
-moses=/home/tools/mosesdecoder
+moses=/home/larocca2/mosesdecoder
 srilm=/home/tools/kaldi/tools/srilm/bin/i686-m64
+fast_align=/home/larocca2/fast_align
 
 # model variables
 #==============================================================================
