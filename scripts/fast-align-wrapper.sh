@@ -6,11 +6,11 @@ output=$3
 
 . $config
 
-echo $moses/tools/fast_align -i $input -d -o -v
-$moses/tools/fast_align -i $input -d -o -v > $output.forward
+echo $fast_align/build/fast_align -i $input -d -o -v
+$fast_align/build/fast_align -i $input -d -o -v > $output.forward
 
-echo $moses/tools/fast_align -i $input -d -o -v -r
-$moses/tools/fast_align -i $input -d -o -v -r > $output.backward
+echo $fast_align/build/fast_align -i $input -d -o -v -r
+$fast_align/build/fast_align -i $input -d -o -v -r > $output.backward
 
-echo $moses/tools/atools -i $output.forward -j $output.backward -c grow-diag-final-and
-$moses/tools/atools -i $output.forward -j $output.backward -c grow-diag-final-and > $output
+echo $fast_align/build/atools -i $output.forward -j $output.backward -c grow-diag-final-and
+$fast_align/build/atools -i $output.forward -j $output.backward -c grow-diag-final-and > $output
