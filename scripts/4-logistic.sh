@@ -44,7 +44,7 @@ python scripts/logistic.py $base/train.feats $base/train.label $testbase/feats.t
 
 paste $working/$id/step-2/corpus/bad.{$output_lang,$input_lang} $testbase/scores.txt | xz > $testbase/corpus.xz
 
-exit
+# exit
 
 (
 paste $testbase/scores.txt $testbase/tr.sum $working/$id/step-2/corpus/bad.{$input_lang,$output_lang} > $working/$id/step-4/pasted.txt
